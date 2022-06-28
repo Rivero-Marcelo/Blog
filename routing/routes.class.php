@@ -44,7 +44,6 @@
                     return $resultado;
                 }
             }
-            
             $resultado = [
                 'notFound' => true
             ];
