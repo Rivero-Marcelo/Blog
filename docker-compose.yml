@@ -20,6 +20,6 @@ services:
       - MYSQL_ROOT_PASSWORD=1234
       - MYSQL_USER=usuario
       - MYSQL_PASSWORD=1234
-      - MYSQL_DATABASE=base
+      - MYSQL_DATABASE=blog
     volumes:
       - ./mysql:/var/lib/mysql

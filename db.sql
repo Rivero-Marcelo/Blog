@@ -4,3 +4,11 @@ CREATE TABLE usuario(
     password varchar(255)
 );
 
+
+
+CREATE TABLE `blog`.`publicacion` (
+  `idPublicacion` INT NOT NULL AUTO_INCREMENT,
+  `idAutor` INT NOT NULL,
+  `fechaHora` DATETIME NOT NULL,
+  `cuerpo` VARCHAR(1000) NOT NULL,
+  PRIMARY KEY (`idPublicacion`));
