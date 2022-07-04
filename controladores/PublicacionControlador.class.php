@@ -24,13 +24,17 @@ public static function ListarTodos(){
 $p = new PublicacionModelo();
 return $publicaciones = $p -> ObtenerPublicaciones();
 
-
-//echo "<pre>";
-//var_dump($publicaciones);
-//die();
-
 }
 
+
+public static function VerPublicacion($contexto){
+
+    $p = new PublicacionModelo($contexto['post']['idPublicacion']);
+    
+
+
+
+}
 
 
 
